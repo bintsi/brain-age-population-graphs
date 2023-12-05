@@ -12,10 +12,10 @@ The format that the csvs need to have is the following:
 train.csv, val.csv, test.csv
 
 For every csv:
-Column 0: eid
-Column 1: label (age)
-Column 2-22: Non-imaging phenotypes
-Column 22-90: Imaging phenotypes
+Column 0: eid  
+Column 1: label (age)  
+Column 2-22: Non-imaging phenotypes  
+Column 22-90: Imaging phenotypes  
 
 ## Training
 To train a model for the hyperparameters chosen for the regression task run the following command:
